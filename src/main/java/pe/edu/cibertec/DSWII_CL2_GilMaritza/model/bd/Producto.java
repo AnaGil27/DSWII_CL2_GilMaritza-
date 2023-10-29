@@ -13,7 +13,7 @@ import java.sql.Date;
 public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idprod;
+    private Integer id;
     @Column(name = "producto")
     private String producto;
     @Column(name = "descripcion")
